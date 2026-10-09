@@ -1,0 +1,67 @@
+.root {
+    -fx-background-color: #f4f6f9;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.label {
+    -fx-text-fill: #2d3748;
+}
+
+/* Campos del formulario lateral */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cbd5e0;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px 10px;
+}
+
+.text-field:focused {
+    -fx-border-color: #3182ce;
+}
+
+/* Botones del panel derecho */
+.right .button {
+    -fx-background-color: #3182ce;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 12px;
+    -fx-cursor: hand;
+}
+
+.right .button:hover {
+    -fx-background-color: #2b6cb0;
+}
+
+/* Botón superior de cerrar sesión */
+.top .button {
+    -fx-background-color: #e53e3e;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+
+.top .button:hover {
+    -fx-background-color: #c53030;
+}
+
+/* Estilo para la Tabla */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #edf2f7;
+    -fx-border-color: transparent transparent #cbd5e0 transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4a5568;
+}

@@ -1,0 +1,40 @@
+.root {
+    -fx-background-color: #f0f4f8;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.label {
+    -fx-text-fill: #2d3748;
+}
+
+.text-field, .password-field, .combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cbd5e0;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 13px;
+}
+
+.text-field:focused, .password-field:focused, .combo-box:focused {
+    -fx-border-color: #3182ce;
+    -fx-background-color: #ffffff;
+}
+
+.button {
+    -fx-background-color: #3182ce;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 9px 16px;
+    -fx-cursor: hand;
+    -fx-font-size: 13px;
+}
+
+.button:hover {
+    -fx-background-color: #2b6cb0;
+}
+
+.button:pressed {
+    -fx-background-color: #2c5282;
+}
